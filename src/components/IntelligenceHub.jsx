@@ -7,7 +7,7 @@ function IntelligenceHub() {
   return (
     <div className="bg-bodyBlue mt-[-1px] xl:pt-40 xl:pb-44 lg:py-28 md:py-16 py-10 ">
       <div className="container px-3">
-        <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-20 md:pb-14 pb-5 text-center">
+        <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-20 md:pb-14 pb-7 text-center">
           Your All-in-One Market{" "}
           <span className="lg:block">Intelligence Hub</span>
         </h2>
@@ -60,6 +60,12 @@ function IntelligenceHub() {
               strategy and boost your investment returns.
             </p>
           </div>
+        </div>
+ 
+        <div className="flex justify-center lg:mt-[60px] md:mt-[50px] mt-[25px]">
+          <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient py-3.5 px-6 rounded-[8px] hover:bg-btnBluehover transition duration-300 ease-linear text-nowrap">
+            Get Free Access Now
+          </button>
         </div>
       </div>
     </div>
