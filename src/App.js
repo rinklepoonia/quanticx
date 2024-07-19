@@ -10,7 +10,7 @@ function App() {
       <HeroSection />
       <IntelligenceHub />
       <About />
-      {/* <DataAnalytic/> */}
+      <DataAnalytic/>
     </>
   );
 }

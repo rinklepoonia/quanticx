@@ -14,7 +14,7 @@ function HeroSection() {
   //     Timer:9000,
   //   });
   // };
-   const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("");
   const popup = () => {
     if (email && isValidEmail(email)) {
       Swal.fire({
@@ -23,6 +23,7 @@ function HeroSection() {
         icon: "success",
         timer: 9000,
       });
+      setEmail("");
     } else {
       alert("Please enter a valid email address.");
     }
@@ -65,12 +66,12 @@ function HeroSection() {
                   value={email}
                   onChange={handleInputChange}
                   placeholder="Enter Your Valid Email"
-                  className="font-Poppins font-normal text-base text-white70 border border-darkWhite20 bg-transparent py-3.5 px-[18.18px] max-w-[273px] w-full outline-none rounded-[8px]"
+                  className="font-Poppins font-normal text-base text-white70 border border-darkWhite20 bg-transparent py-3.5 px-[18.18px] sm:max-w-[273px] max-sm:w-full w-full outline-none rounded-[8px]"
                 />
                 <button
                   type="button"
                   onClick={popup}
-                  className="font-Poppins font-semibold text-base text-darkWhite py-3.5 px-6 bg-btnBlueGradient rounded-[8px] hover:bg-btnBluehover transition-all ease-linear duration-300 text-nowrap"
+                  className="font-Poppins font-semibold text-base text-darkWhite py-3.5 px-6 bg-btnBlueGradient rounded-[8px] max-sm:w-full hover:bg-btnBluehover transition-all ease-linear duration-300 text-nowrap"
                 >
                   Subscribe For Free NOW
                 </button>
