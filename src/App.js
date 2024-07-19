@@ -1,11 +1,12 @@
 import "./App.css";
 import HeroSection from "./components/HeroSection";
-import NavBar from "./components/NavBar";
+import IntelligenceHub from "./components/IntelligenceHub";
 
 function App() {
   return (
     <>
-      <HeroSection/>
+      <HeroSection />
+      <IntelligenceHub/>
     </>
   );
 }

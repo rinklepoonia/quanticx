@@ -45,9 +45,12 @@ function HeroSection() {
             </div>
           </div>
           <div className="flex justify-center mt-20">
-              <span className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center">
-                <DownArrow />
-              </span>
+            <span
+              id="down"
+              className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center cursor-pointer"
+            >
+              <DownArrow />
+            </span>
           </div>
         </div>
       </div>

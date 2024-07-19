@@ -18,11 +18,15 @@ module.exports = {
       },
       colors: {
         darkWhite20: "#424C61",
+        darkWhite70: "#B5B9C2",
         darkWhite: "#FAFAFA",
         lightwhite: "#B4BBC0",
         white70: "#B8BCC4",
-        blue: '#152340',
-
+        blue: "#152340",
+        darkWhite8: "#FAFAFA14",
+      },
+      backgroundColor: {
+        bodyBlue: "#111C33",
       },
       backgroundImage: {
         btnBlueGradient:
@@ -32,6 +36,9 @@ module.exports = {
       },
       backgroundSize: {
         full: "100% 100%",
+      },
+      boxShadow: {
+        CardShadaw: "0px 0px 14px 0px #2DE2FB26",
       },
     },
   },
