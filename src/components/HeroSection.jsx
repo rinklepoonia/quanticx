@@ -1,15 +1,19 @@
 import React from "react";
 import NavBar from "./NavBar";
 import HeroLaptopImg from "../assets/images/png/hero-laptop.png";
+import RoundEllips from "../assets/images/png/hero-round-ellips.png";
 import { DownArrow } from "./Icons";
 
 function HeroSection() {
   return (
-    <div className="bg-[url('./assets/images/png/hero-bg-img.png')] bg-full min-h-screen flex flex-col">
+    <div className="bg-[url('./assets/images/png/hero-bg-img.png')] lg:bg-full bg-cover min-h-screen lg:min-h-[810px] flex flex-col relative">
+      <div className="absolute bottom-[-15%] left-[40px] md:block hidden">
+        <img className="max-w-[58px]" src={RoundEllips} alt="RoundEllips" />
+      </div>
       <div>
         <NavBar />
       </div>
-      <div className="grow flex items-center">
+      <div className="lg:pt-32 pt-16 lg:pb-7 pb-5">
         <div className="container px-3">
           <div className="row justify-center">
             <div className="lg:w-[50%] px-3">
