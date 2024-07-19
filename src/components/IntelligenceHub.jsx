@@ -2,10 +2,18 @@ import React from "react";
 import IntelligenceHubImg1 from "../assets/images/png/intelligenceHub-1.png";
 import IntelligenceHubImg2 from "../assets/images/png/intelligenceHub-2.png";
 import IntelligenceHubImg3 from "../assets/images/png/intelligenceHub-3.png";
+import IntelligenceHubEllip from "../assets/images/png/hub-right-ellip.png";
 
 function IntelligenceHub() {
   return (
-    <div className="bg-bodyBlue mt-[-1px] xl:pt-40 xl:pb-44 lg:py-28 md:py-16 py-10 ">
+    <div className="bg-bodyBlue mt-[-1px] xl:pt-40 xl:pb-44 lg:py-28 md:py-16 py-10 relative">
+      <div className="absolute right-0 top-[-1%] md:block hidden">
+        <img
+          className="w-full h-[555px]"
+          src={IntelligenceHubEllip}
+          alt="IntelligenceHubEllip"
+        />
+      </div>
       <div className="container px-3">
         <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-20 md:pb-14 pb-7 text-center">
           Your All-in-One Market{" "}
@@ -61,7 +69,7 @@ function IntelligenceHub() {
             </p>
           </div>
         </div>
- 
+
         <div className="flex justify-center lg:mt-[60px] md:mt-[50px] mt-[25px]">
           <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient py-3.5 px-6 rounded-[8px] hover:bg-btnBluehover transition duration-300 ease-linear text-nowrap">
             Get Free Access Now
