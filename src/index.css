@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .row {
+    @apply flex flex-wrap flex-row mx-[-12px];
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

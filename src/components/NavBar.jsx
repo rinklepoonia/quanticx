@@ -5,9 +5,9 @@ import {Cross , Threeline} from '../components/Icons'
 function NavBar() {
   const [nav, setnav] = useState(false);
   return (
-    <div className="bg-[url('./assets/images/png/hero-bg-img.png')]">
+    <div className="">
       <div className="container px-3">
-        <div className="flex  items-center justify-between">
+        <div className="flex h-[100px] items-center justify-between">
           <a href="">
             {" "}
             <img className="max-w-[191px]" src={navlogo} alt="navlogo" />
