@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import navlogo from "../assets/images/png/nav-logo.png";
-import {Cross , Threeline} from '../components/Icons'
+import { Cross, Threeline } from "../components/Icons";
 
 function NavBar() {
   const [nav, setnav] = useState(false);
+  if (nav === true) {
+    document.body.classList.add("overflow_hidden");
+  } else {
+    document.body.classList.remove("overflow_hidden");
+  }
   return (
     <div className="">
       <div className="container px-3">
@@ -92,6 +97,3 @@ function NavBar() {
 }
 
 export default NavBar;
-  // <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient py-3.5 px-6 rounded-[8px] hover:bg-btnBluehover transition duration-300 ease-linear text-nowrap">
-  //   Contact Us
-  // </button>;

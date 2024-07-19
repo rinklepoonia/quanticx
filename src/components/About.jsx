@@ -4,10 +4,19 @@ import AboutEllip from '../assets/images/png/about-us-ellip.png'
 
 function About() {
   return (
-    <div className="bg-bodyBlue lg:py-44 md:py-24 sm:py-14 py-10 mt-[-1px] relative">
-      <div className="absolute right-0 top-0"><img className="max-w-[801px] h-[553px]" src={AboutEllip} alt="AboutEllip" /></div>
+    <div
+      id="down"
+      className="bg-bodyBlue lg:py-44 md:py-24 sm:py-14 py-10 mt-[-1px] relative"
+    >
+      <div className="absolute right-0 top-0">
+        <img
+          className="max-w-[801px] h-[553px]"
+          src={AboutEllip}
+          alt="AboutEllip"
+        />
+      </div>
       <div className="container px-3">
-        <div className="row items-center">
+        <div className="row lg:flex-row flex flex-col-reverse items-center">
           <div className="lg:w-[50%] w-full px-3 flex justify-center">
             <img
               className="max-w-[500px] w-full"

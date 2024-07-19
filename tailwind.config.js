@@ -8,12 +8,12 @@ module.exports = {
       },
       container: {
         center: true,
-        // screens: {
-        //   sm: "540px",
-        //   md: "720px",
-        //   lg: "1044px",
-        //   xl: "1140px",
-        // },
+        screens: {
+          // sm: "540px",
+          // md: "720px",
+          // lg: "1044px",
+          xl: "1140px",
+        },
       },
       fontFamily: {
         Poppins: "'Poppins', sans-serif",

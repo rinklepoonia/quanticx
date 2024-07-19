@@ -5,6 +5,7 @@ import RoundEllips from "../assets/images/png/hero-round-ellips.png";
 import { DownArrow } from "./Icons";
 
 function HeroSection() {
+  
   return (
     <div className="bg-[url('./assets/images/png/hero-bg-img.png')] lg:bg-full bg-cover min-h-screen lg:min-h-[810px] flex flex-col relative">
       <div className="absolute bottom-[-15%] left-[40px] md:block hidden z-10">
@@ -40,21 +41,22 @@ function HeroSection() {
                 </button>
               </form>
             </div>
-            <div className="lg:w-[50%] px-3">
+            <div className="lg:w-[50%] px-3 flex justify-end">
               <img
-                className="max-w-[515px] w-full lg:mt-0 mt-10"
+                className="max-w-[515px] lg:h-[528px] lg:object-fill w-full lg:mt-0 mt-10"
                 src={HeroLaptopImg}
                 alt="HeroLaptopImg"
               />
             </div>
           </div>
           <div className="flex justify-center mt-20">
-            <span
-              id="down"
-              className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center cursor-pointer"
-            >
-              <DownArrow />
-            </span>
+            <a href="#down">
+              <span
+                className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center cursor-pointer"
+              >
+                <DownArrow />
+              </span>
+            </a>
           </div>
         </div>
       </div>
