@@ -1,11 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "./NavBar";
 import HeroLaptopImg from "../assets/images/png/hero-laptop.png";
 import RoundEllips from "../assets/images/png/hero-round-ellips.png";
 import { DownArrow } from "./Icons";
+import Swal from "sweetalert2";
 
 function HeroSection() {
-  
+  // const popup = () => {
+  //   Swal.fire({
+  //     title: "Good job!",
+  //     text: "Your task has been added !",
+  //     icon: "success",
+  //     Timer:9000,
+  //   });
+  // };
+   const [email, setEmail] = useState("");
+  const popup = () => {
+    if (email && isValidEmail(email)) {
+      Swal.fire({
+        title: "Good job!",
+        text: "Your mail has been added!",
+        icon: "success",
+        timer: 9000,
+      });
+    } else {
+      alert("Please enter a valid email address.");
+    }
+  };
+  const isValidEmail = (email) => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  };
+
+  const handleInputChange = (e) => {
+    setEmail(e.target.value);
+  };
+
   return (
     <div className="bg-[url('./assets/images/png/hero-bg-img.png')] lg:bg-full bg-cover min-h-screen lg:min-h-[810px] flex flex-col relative">
       <div className="absolute bottom-[-15%] left-[40px] md:block hidden z-10">
@@ -33,10 +62,16 @@ function HeroSection() {
                 <input
                   required
                   type="email"
+                  value={email}
+                  onChange={handleInputChange}
                   placeholder="Enter Your Valid Email"
                   className="font-Poppins font-normal text-base text-white70 border border-darkWhite20 bg-transparent py-3.5 px-[18.18px] max-w-[273px] w-full outline-none rounded-[8px]"
                 />
-                <button className="font-Poppins font-semibold text-base text-darkWhite py-3.5 px-6 bg-btnBlueGradient rounded-[8px] hover:bg-btnBluehover transition-all ease-linear duration-300 text-nowrap">
+                <button
+                  type="button"
+                  onClick={popup}
+                  className="font-Poppins font-semibold text-base text-darkWhite py-3.5 px-6 bg-btnBlueGradient rounded-[8px] hover:bg-btnBluehover transition-all ease-linear duration-300 text-nowrap"
+                >
                   Subscribe For Free NOW
                 </button>
               </form>
@@ -51,9 +86,7 @@ function HeroSection() {
           </div>
           <div className="flex justify-center mt-20">
             <a href="#down">
-              <span
-                className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center cursor-pointer"
-              >
+              <span className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center cursor-pointer">
                 <DownArrow />
               </span>
             </a>
@@ -65,3 +98,4 @@ function HeroSection() {
 }
 
 export default HeroSection;
+// tost popup on submit button

@@ -6,7 +6,10 @@ import IntelligenceHubEllip from "../assets/images/png/hub-right-ellip.png";
 
 function IntelligenceHub() {
   return (
-    <div className="bg-bodyBlue mt-[-1px] xl:pt-40 xl:pb-44 lg:py-28 md:py-16 py-10 relative">
+    <div
+      id="down"
+      className="bg-bodyBlue mt-[-1px] xl:pt-40 xl:pb-44 lg:py-28 md:py-16 py-10 relative"
+    >
       <div className="absolute right-0 top-[-1%] md:block hidden">
         <img
           className="w-full h-[555px]"

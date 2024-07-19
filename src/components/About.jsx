@@ -5,7 +5,6 @@ import AboutEllip from '../assets/images/png/about-us-ellip.png'
 function About() {
   return (
     <div
-      id="down"
       className="bg-bodyBlue lg:py-44 md:py-24 sm:py-14 py-10 mt-[-1px] relative"
     >
       <div className="absolute right-0 top-0">
