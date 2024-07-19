@@ -8,7 +8,7 @@ function App() {
     <>
       <HeroSection />
       <IntelligenceHub />
-      {/* <About /> */}
+      <About />
     </>
   );
 }

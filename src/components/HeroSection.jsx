@@ -7,7 +7,7 @@ import { DownArrow } from "./Icons";
 function HeroSection() {
   return (
     <div className="bg-[url('./assets/images/png/hero-bg-img.png')] lg:bg-full bg-cover min-h-screen lg:min-h-[810px] flex flex-col relative">
-      <div className="absolute bottom-[-15%] left-[40px] md:block hidden">
+      <div className="absolute bottom-[-15%] left-[40px] md:block hidden z-10">
         <img className="max-w-[58px]" src={RoundEllips} alt="RoundEllips" />
       </div>
       <div>
