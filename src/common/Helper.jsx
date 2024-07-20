@@ -7,6 +7,14 @@ import dataImg6 from "../assets/images/png/tranding-signals-6.png";
 import dataImg7 from "../assets/images/png/asset-analysis-7.png";
 import dataImg8 from "../assets/images/png/breakout-signals-8.png";
 import PremiumDimondImg from "../assets/images/png/premium-dimond-img.png";
+// what we do img
+import chatBotImg from '../assets/images/png/chatBotImg-1.png'
+import TradingImg from "../assets/images/png/tranding-signal-2.png";
+import portfoliosImg from "../assets/images/png/portfoliyaImg-3.png";
+import generateStrategiesImg from "../assets/images/png/stragiesImg-4.png";
+import managedFundImg from "../assets/images/png/managedFundImg-5.png";
+import QuanticXPortfoliosImg from "../assets/images/png/quanticxPortfolios-6.png";
+
 export const Data = [
   {
     img: dataImg1,
@@ -53,3 +61,46 @@ export const Data = [
     para: "Identifying immediate trading opportunities",
   },
 ];
+export const WhatWeCards = [
+  {
+    img: chatBotImg,
+    heading: "chat bot App",
+    para: (
+      <>
+        <span>AI-powered conversations and answers, learn and assist.</span>
+      </>
+    ),
+    button: "Explore",
+  },
+  {
+    img: TradingImg,
+    heading: "Trading signals",
+    para: "We sell trading signals too on Zulutrade, MQL5 and we might add other platforms.",
+    button: "Explore",
+  },
+  {
+    img: portfoliosImg,
+    heading: "portfolios for investors",
+    para: "We construct custom portfolios for investors.",
+    button: "Explore",
+  },
+  {
+    img: generateStrategiesImg,
+    heading: "generate strategies",
+    para: "We also sell the SQX workflows that we have used to generate our strategies.",
+    button: "Explore",
+  },
+  {
+    img: managedFundImg,
+    heading: "managed fund",
+    para:"We have a managed fund to invest in it on Darwinex.",
+    button: "Explore",
+  },
+  {
+    img: QuanticXPortfoliosImg,
+    heading: "QuanticX portfolios",
+    para: "We sell these portfolios on the MQL5 market",
+    button: "Explore",
+  },
+];
+

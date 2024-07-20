@@ -12,6 +12,7 @@ function DataAnalytic() {
           Our bot doesn't just predict - it analyzes, adapts, and evolves
         </p>
         <div className="flex flex-wrap justify-center gap-6 xl:pb-24 sm:pb-14 pb-6">
+          {/* ====map-cards==== */}
           {Data.map((obj, index) => (
             <div
               key={index}

@@ -1,8 +1,10 @@
 import "./App.css";
 import About from "./components/About";
 import DataAnalytic from "./components/DataAnalytic";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import IntelligenceHub from "./components/IntelligenceHub";
+import WhatWe from "./components/WhatWe";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <IntelligenceHub />
       <DataAnalytic />
       <About />
+      {/* <WhatWe/> */}
+      <Footer/>
     </>
   );
 }
