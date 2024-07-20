@@ -1,11 +1,12 @@
 import dataImg1 from "../assets/images/png/multiplayIndicater-img1.png";
-import dataImg2 from '../assets/images/png/fram-analysi-2.png';
-import dataImg3 from '../assets/images/png/strategy-validation-3.png'
-import dataImg4 from '../assets/images/png/market-context-4.png'
-import dataImg5 from '../assets/images/png/data-extraction-5.png'
-import dataImg6 from '../assets/images/png/tranding-signals-6.png'
-import dataImg7 from '../assets/images/png/asset-analysis-7.png'
-import dataImg8 from '../assets/images/png/breakout-signals-8.png'
+import dataImg2 from "../assets/images/png/fram-analysi-2.png";
+import dataImg3 from "../assets/images/png/strategy-validation-3.png";
+import dataImg4 from "../assets/images/png/market-context-4.png";
+import dataImg5 from "../assets/images/png/data-extraction-5.png";
+import dataImg6 from "../assets/images/png/tranding-signals-6.png";
+import dataImg7 from "../assets/images/png/asset-analysis-7.png";
+import dataImg8 from "../assets/images/png/breakout-signals-8.png";
+import PremiumDimondImg from "../assets/images/png/premium-dimond-img.png";
 export const Data = [
   {
     img: dataImg1,
@@ -38,12 +39,15 @@ export const Data = [
     para: "Analyzing multiple time frames for comprehensive market views",
   },
   {
-    premiumBtn:"Premium",
+    dimondImg: PremiumDimondImg,
+    premiumBtn: "Premium",
     img: dataImg7,
     heading: "Real-Time\n Asset Analysis",
     para: "Capability to analyze any market asset on demand",
   },
   {
+    dimondImg: PremiumDimondImg,
+    premiumBtn: "Premium",
     img: dataImg8,
     heading: "Breakout\n Signals",
     para: "Identifying immediate trading opportunities",

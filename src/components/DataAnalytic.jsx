@@ -13,8 +13,35 @@ function DataAnalytic() {
         </p>
         <div className="flex flex-wrap justify-center gap-6 xl:pb-24 sm:pb-14 pb-6">
           {Data.map((obj, index) => (
-            <div key={index}>
-              <div className="bg-blue max-w-[267px] min-h-[288px] px-5 pt-7 pb-5 flex justify-center flex-col items-center rounded-xl relative">
+            <div
+              key={index}
+              className={index >= Data.length - 4 ? "xl:mt-4 mt-0" : ""}
+            >
+              <div
+                className={`bg-blue max-w-[267px] min-h-[288px] px-5 pt-7 pb-5 flex justify-center flex-col items-center rounded-xl relative  ${
+                  index >= Data.length - 2
+                    ? "border border-btnBlueGradient"
+                    : ""
+                }`}
+              >
+                <div
+                  className={`flex items-center rounded-2xl gap-1.5 py-1 px-12 absolute top-[-10px] ${
+                    index >= Data.length - 2 ? "bg-btnBlueGradient" : ""
+                  }`}
+                >
+                  {obj.premiumBtn && (
+                    <button className="font-Poppins font-normal text-base text-white">
+                      {obj.premiumBtn}
+                    </button>
+                  )}
+                  {obj.dimondImg && (
+                    <img
+                      className="w-4"
+                      src={obj.dimondImg}
+                      alt="PremiumDimondImg"
+                    />
+                  )}
+                </div>
                 <div className="w-[265px] h-[89px] bg-btnBlueGradient opacity-15 absolute blur-2xl top-12 left-0"></div>
                 <div className="w-20 h-20 bg-cardGradient rounded-full flex justify-center items-center">
                   <img className="max-w-[48px]" src={obj.img} alt="dataImg1 " />

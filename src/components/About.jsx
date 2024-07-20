@@ -4,9 +4,7 @@ import AboutEllip from '../assets/images/png/about-us-ellip.png'
 
 function About() {
   return (
-    <div
-      className="bg-bodyBlue lg:py-44 md:py-24 sm:py-14 py-10 mt-[-1px] relative"
-    >
+    <div className="bg-bodyBlue lg:py-44 md:py-24 sm:py-14 py-10 mt-[-1px] relative">
       <div className="absolute right-0 top-0">
         <img
           className="max-w-[801px] h-[553px]"
@@ -23,11 +21,11 @@ function About() {
               alt="AboutUsImg"
             />
           </div>
-          <div className="lg:w-[50%] w-full px-3">
-            <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-4 pb-2">
+          <div className="lg:w-[50%] w-full px-3  pb-lg-0 pb-5">
+            <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-4 pb-2 max-lg:text-center">
               About us
             </h2>
-            <p className="font-Poppins font-normal text-base leading-7 text-darkWhite70 lg:max-w-[560px] lg:pb-9 pb-5">
+            <p className="font-Poppins font-normal text-base leading-7 text-darkWhite70 lg:max-w-[560px] lg:pb-9 pb-5 max-lg:text-center">
               Welcome to QuanticX, where the future of trading has already
               arrived. We are a groundbreaking fintech startup, pushing the
               boundaries of what's possible in the trading and investment world.
@@ -42,9 +40,11 @@ function About() {
               confidence and precision.
             </p>
 
-            <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient py-3.5 px-6 rounded-[8px] hover:bg-btnBluehover transition duration-300 ease-linear text-nowrap">
-              Learn more
-            </button>
+            <div className="flex max-lg:justify-center">
+              <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient py-3.5 px-6 rounded-[8px] hover:bg-btnBluehover transition duration-300 ease-linear text-nowrap">
+                Learn more
+              </button>
+            </div>
           </div>
         </div>
       </div>
