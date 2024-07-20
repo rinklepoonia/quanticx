@@ -99,4 +99,3 @@ function HeroSection() {
 }
 
 export default HeroSection;
-// tost popup on submit button

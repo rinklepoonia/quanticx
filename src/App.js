@@ -9,8 +9,8 @@ function App() {
     <>
       <HeroSection />
       <IntelligenceHub />
+      <DataAnalytic />
       <About />
-      <DataAnalytic/>
     </>
   );
 }
