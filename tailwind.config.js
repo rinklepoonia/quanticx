@@ -9,10 +9,10 @@ module.exports = {
       container: {
         center: true,
         screens: {
-          // sm: "540px",
-          // md: "720px",
-          // lg: "1044px",
-          xl: "1140px",
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
+          xl: "1180px",
         },
       },
       fontFamily: {

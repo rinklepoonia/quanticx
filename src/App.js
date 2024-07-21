@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Accordian from "./components/Accordian";
 import DataAnalytic from "./components/DataAnalytic";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
@@ -17,6 +18,7 @@ function App() {
       <WhatWe/>
       {/* <Footer /> */}
       {/* <NewsLetter/> */}
+      <Accordian/>
     </>
   );
 }
