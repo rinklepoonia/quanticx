@@ -4,6 +4,7 @@ import DataAnalytic from "./components/DataAnalytic";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import IntelligenceHub from "./components/IntelligenceHub";
+import NewsLetter from "./components/NewsLetter";
 import WhatWe from "./components/WhatWe";
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       <IntelligenceHub />
       <DataAnalytic />
       <About />
-      {/* <WhatWe/> */}
-      <Footer/>
+      <WhatWe/>
+      {/* <Footer /> */}
+      {/* <NewsLetter/> */}
     </>
   );
 }
