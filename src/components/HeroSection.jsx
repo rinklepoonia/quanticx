@@ -75,7 +75,7 @@ function HeroSection() {
             </div>
             <div className="lg:w-[50%] px-3 flex justify-end">
               <img
-                className="max-w-[515px] lg:h-[528px] lg:object-fill w-full lg:mt-0 mt-10"
+                className="max-w-[515px] h-[528px] w-full lg:mt-0 mt-10"
                 src={HeroLaptopImg}
                 alt="HeroLaptopImg"
               />

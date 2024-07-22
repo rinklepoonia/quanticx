@@ -57,18 +57,21 @@ function WhatWe() {
                     className={`font-Poppins font-normal text-base text-darkWhite70 text-center ${
                       index === 0 || index === 3 || index === 4
                         ? "pb-11"
-                        : index === 1 || index === 2 || index === 5
+                        : index === 1
                         ? "pb-7"
+                        : index === 2 || index === 5
+                        ? "pb-[54px]"
                         : ""
                     }`}
                   >
                     {obj.para}
                   </p>
-                  <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient py-3.5 px-6 rounded-lg">
+                  <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient hover:bg-btnBluehover py-3.5 px-6 rounded-lg transition-all duration-300">
                     {obj.button}
                   </button>
                 </div>
               </div>
+  
             </div>
           ))}
         </div>

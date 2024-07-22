@@ -14,7 +14,28 @@ import portfoliosImg from "../assets/images/webp/portfoliyaImg-3.webp";
 import generateStrategiesImg from "../assets/images/webp/stragiesImg-4.webp";
 import managedFundImg from "../assets/images/webp/managedFundImg-5.webp";
 import QuanticXPortfoliosImg from "../assets/images/webp/quanticxPortfolios-6.webp";
+// HubImages
+import IntelligenceHubImg1 from "../assets/images/webp/intelligenceHub-1.webp";
+import IntelligenceHubImg2 from "../assets/images/webp/intelligenceHub-2.webp";
+import IntelligenceHubImg3 from "../assets/images/webp/intelligenceHub-3.webp";
 
+export const HubData = [
+  {
+    HubImg1: IntelligenceHubImg1,
+    heading: "Daily Full Market Report and Main News Summarizer",
+    para: "Stay informed with daily updates on major markets and concise news summaries to make quick, informed decisions.",
+  },
+  {
+    HubImg1: IntelligenceHubImg2,
+    heading: "Weekly and Monthly Full Market Overview Analysis",
+    para: "Get the big picture with detailed weekly and monthly market overviews, helping you spot trends and plan ahead.",
+  },
+  {
+    HubImg1: IntelligenceHubImg3,
+    heading: "Sample of a Premium Signal",
+    para: "Access high-quality premium signals to enhance your trading strategy and boost your investment returns.",
+  },
+];
 export const Data = [
   {
     img: dataImg1,

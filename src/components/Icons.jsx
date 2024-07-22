@@ -1,6 +1,7 @@
 export const Cross = () => {
   return (
     <svg
+      fill-rule="nonzero"
       xmlns="http://www.w3.org/2000/svg"
       width="50"
       height="50"
@@ -15,6 +16,7 @@ export const Cross = () => {
 export const Threeline = () => {
   return (
     <svg
+      fill-rule="nonzero"
       xmlns="http://www.w3.org/2000/svg"
       width="50"
       height="50"
@@ -32,6 +34,7 @@ export const Threeline = () => {
 export const DownArrow = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="16"
       height="23"
       viewBox="0 0 16 23"
@@ -48,6 +51,7 @@ export const DownArrow = () => {
 export const Insta = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="20"
       height="20"
       viewBox="0 0 20 20"
@@ -64,6 +68,7 @@ export const Insta = () => {
 export const In = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="20"
       height="20"
       viewBox="0 0 20 20"
@@ -82,6 +87,7 @@ export const In = () => {
 export const Twitter = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="25"
       height="20"
       viewBox="0 0 25 20"
@@ -101,6 +107,7 @@ export const Twitter = () => {
 export const YouTube = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="27"
       height="20"
       viewBox="0 0 27 20"
@@ -117,6 +124,7 @@ export const YouTube = () => {
 export const Contact = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="21"
       height="22"
       viewBox="0 0 21 22"
@@ -136,6 +144,7 @@ export const Contact = () => {
 export const Mail = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="21"
       height="18"
       viewBox="0 0 21 18"
@@ -162,6 +171,7 @@ export const Mail = () => {
 export const AccTopArrow = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="37"
       height="20"
       viewBox="0 0 37 20"
@@ -178,6 +188,7 @@ export const AccTopArrow = () => {
 export const AccBottomArrow = () => {
   return (
     <svg
+      fill-rule="nonzero"
       width="37"
       height="20"
       viewBox="0 0 37 20"
@@ -191,4 +202,3 @@ export const AccBottomArrow = () => {
     </svg>
   );
 };
-
