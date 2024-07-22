@@ -3,7 +3,7 @@ import { WhatWeCards } from "../common/Helper";
 
 function WhatWe() {
   return (
-    <div className="bg-bodyBlue mt-[-1px] pb-10">
+    <div className="bg-bodyBlue mt-[-2px] pb-10">
       <div className="container px-3">
         <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 text-center">
           What we do

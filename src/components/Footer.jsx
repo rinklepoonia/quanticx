@@ -11,7 +11,7 @@ import {
 
 function Footer() {
   return (
-    <div className="bg-bodyBlue mt-[-1px]">
+    <div className="bg-bodyBlue mt-[-2px]">
       <div className="container px-3">
         <div className="row">
           <div className="lg:w-[41.66%] w-full max-lg:px-3">
@@ -130,6 +130,8 @@ function Footer() {
             </div>
           </div>
         </div>
+        <div className="border-b border-lightGrey mt-10"></div>
+        <p className="font-Poppins font-normal text-base text-darkWhite70 text-center pt-5 pb-7">@Copyright123</p>
       </div>
     </div>
   );

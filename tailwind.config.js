@@ -28,6 +28,7 @@ module.exports = {
         white32:" #FFFFFF52",
         blue: "#152340",
         darkWhite8: "#FAFAFA14",
+        lightGrey:"#636C7D",
        
       },
       backgroundColor: {
