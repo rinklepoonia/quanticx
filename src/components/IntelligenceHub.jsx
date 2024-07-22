@@ -3,6 +3,7 @@ import IntelligenceHubImg1 from "../assets/images/png/intelligenceHub-1.png";
 import IntelligenceHubImg2 from "../assets/images/png/intelligenceHub-2.png";
 import IntelligenceHubImg3 from "../assets/images/png/intelligenceHub-3.png";
 import IntelligenceHubEllip from "../assets/images/png/hub-right-ellip.png";
+import LeftEllip from '../assets/images/png/left-roundedEllip.png'
 
 function IntelligenceHub() {
   return (
@@ -10,12 +11,17 @@ function IntelligenceHub() {
       id="down"
       className="bg-bodyBlue mt-[-1px] xl:pt-40 xl:pb-44 lg:py-28 md:py-16 py-10 relative"
     >
+      {/* ====rightEllip====== */}
       <div className="absolute right-0 top-[-1%] md:block hidden">
         <img
           className="w-full h-[555px]"
           src={IntelligenceHubEllip}
           alt="IntelligenceHubEllip"
         />
+      </div>
+      {/* ======leftEllip====== */}
+      <div className="absolute bottom-[-17%] left-[-32px]">
+        <img className="max-w-[821px] h-[555px]" src={LeftEllip} alt="LeftEllip " />
       </div>
       <div className="container px-3">
         <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-20 md:pb-14 pb-7 text-center">
