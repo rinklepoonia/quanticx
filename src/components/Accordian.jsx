@@ -9,7 +9,6 @@ const AccordionItem = ({ accHeading, accPara , isOpen, onClick }) => {
   const contentHeight = useRef();
   return (
     <div
-      data-aos="flip-down"
       className={`overflow-hidden mb-6 ${
         isOpen ? "" : "border-b border-white32"
       }`}

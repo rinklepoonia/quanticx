@@ -40,7 +40,7 @@ function HeroSection() {
       <div>
         <NavBar />
       </div>
-      <div className="lg:pt-32 pt-16 lg:pb-7 pb-5">
+      <div className="lg:pt-32 md:pt-16 pt-8 lg:pb-7 pb-5">
         <div className="container px-3">
           <div className="row justify-center">
             <div className="lg:w-[50%] px-3">
@@ -75,7 +75,7 @@ function HeroSection() {
             </div>
             <div className="lg:w-[50%] px-3 flex justify-end">
               <img
-                className="max-w-[515px] h-[528px] w-full lg:mt-0 mt-10"
+                className="max-w-[515px] lg:h-[528px] w-full lg:mt-0 mt-10"
                 src={HeroLaptopImg}
                 alt="HeroLaptopImg"
               />
