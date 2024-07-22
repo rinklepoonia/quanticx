@@ -3,7 +3,7 @@ import { Data } from "../common/Helper";
 
 function DataAnalytic() {
   return (
-    <div className="bg-bodyBlue mt-[-1px] py:md-0 py-5">
+    <div className="bg-bodyBlue mt-[-1px] md::py-0 py-5">
       <div className="container xl:px-0 px-3">
         <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 max-xl:text-center">
           Powered by Advanced <span className="lg:block">Data Analytics</span>
@@ -26,7 +26,7 @@ function DataAnalytic() {
                 }`}
               >
                 <div
-                  className={`flex items-center rounded-2xl gap-1.5 py-1 px-12 absolute top-[-10px] ${
+                  className={`flex items-center rounded-2xl gap-1.5 py-1 px-12 absolute top-[-18px] ${
                     index >= Data.length - 2 ? "bg-btnBlueGradient" : ""
                   }`}
                 >

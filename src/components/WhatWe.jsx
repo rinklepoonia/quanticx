@@ -1,9 +1,18 @@
 import React from "react";
 import { WhatWeCards } from "../common/Helper";
+import leftEllip from '../assets/images/png/WhatWeDo-leftEllip.png'
 
 function WhatWe() {
   return (
-    <div className="bg-bodyBlue mt-[-2px] pb-10">
+    <div className="bg-bodyBlue mt-[-2px] pb-10 relative">
+      {/* ====leftEllip===== */}
+      <div className="absolute top-[-5%] left-0">
+        <img
+          className="max-w-[821px] h-[555px]"
+          src={leftEllip}
+          alt="leftEllip"
+        />
+      </div>
       <div className="container px-3">
         <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 text-center">
           What we do
@@ -29,7 +38,9 @@ function WhatWe() {
                   } bg-blue max-w-[360px] min-h-[460px] rounded-xl py-10 px-11 flex flex-col justify-center items-center`}
                 >
                   <img
-                    className={` ${index === 5 || index===4 ? "h-[160px]" : ""} w-[153px]`}
+                    className={` ${
+                      index === 5 || index === 4 ? "h-[160px]" : ""
+                    } w-[153px]`}
                     src={obj.img}
                     alt="chatBotImg"
                   />
@@ -46,7 +57,7 @@ function WhatWe() {
                     className={`font-Poppins font-normal text-base text-darkWhite70 text-center ${
                       index === 0 || index === 3 || index === 4
                         ? "pb-11"
-                        : index === 1 || index === 2 || index===5
+                        : index === 1 || index === 2 || index === 5
                         ? "pb-7"
                         : ""
                     }`}
