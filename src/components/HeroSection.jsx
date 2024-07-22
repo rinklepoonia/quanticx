@@ -29,8 +29,11 @@ function HeroSection() {
   };
 
   return (
-    <div className="bg-[url('./assets/images/png/hero-bg-img.png')] lg:bg-full bg-cover min-h-screen lg:min-h-[810px] flex flex-col relative">
-      <div className="absolute bottom-[-15%] left-[40px] md:block hidden z-10">
+    <div
+      id="home"
+      className="bg-[url('./assets/images/png/hero-bg-img.png')] lg:bg-full bg-cover min-h-[810px] flex flex-col relative"
+    >
+      <div className="absolute bottom-[-8%] left-[40px] md:block hidden z-10">
         <img className="max-w-[58px]" src={RoundEllips} alt="RoundEllips" />
       </div>
       <div>
@@ -40,7 +43,7 @@ function HeroSection() {
         <div className="container px-3">
           <div className="row justify-center">
             <div className="lg:w-[50%] px-3">
-              <h1 className="font-khula font-bold lg:text-6xl sm:text-5xl text-4xl lg:leading-[66px] sm:leading-[49px] leading-[40px] text-darkWhite">
+              <h1 className="font-khula font-bold xl:text-6xl sm:text-5xl text-4xl xl:leading-[66px] sm:leading-[49px] leading-[40px] text-darkWhite">
                 Gain an Edge in{" "}
                 <span className="lg:block">Forex Trading with</span>{" "}
                 <span className="lg:block">AI-Powered</span> Signals
@@ -77,7 +80,7 @@ function HeroSection() {
               />
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center lg:mt-0 mt-7">
             <a href="#down">
               <span className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center cursor-pointer">
                 <DownArrow />

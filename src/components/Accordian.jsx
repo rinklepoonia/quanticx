@@ -48,7 +48,10 @@ function Accordian() {
     };
 
   return (
-    <div className="bg-bodyBlue mt-[-1px] lg:py-44 md:py-24 sm:py-14 py-10 relative">
+    <div
+      id="faq"
+      className="bg-bodyBlue mt-[-1px] lg:py-44 md:py-24 sm:py-14 py-10 relative"
+    >
       {/* =====rightEllip====== */}
       <div className="absolute right-0 top-0 lg:block hidden">
         <img

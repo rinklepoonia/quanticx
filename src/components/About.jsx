@@ -4,7 +4,10 @@ import AboutEllip from '../assets/images/png/about-us-ellip.png'
 
 function About() {
   return (
-    <div className="bg-bodyBlue lg:py-44 md:py-24 sm:py-14 py-10 mt-[-2px] relative">
+    <div
+      id="about"
+      className="bg-bodyBlue lg:py-44 md:py-24 sm:py-14 py-10 mt-[-2px] relative"
+    >
       <div className="absolute right-0 top-0">
         <img
           className="max-w-[801px] h-[553px]"

@@ -10,23 +10,23 @@ function NavBar() {
     document.body.classList.remove("overflow_hidden");
   }
   return (
-    <div className="">
+    <div>
       <div className="container px-3">
         <div className="flex h-[100px] items-center justify-between">
           <a href="">
             {" "}
             <img className="max-w-[191px]" src={navlogo} alt="navlogo" />
           </a>
-          <div className="flex items-center gap-[26px]">
+          <div className="flex items-center xl:gap-[26px]">
             <ul
               className={`${
                 nav ? "right_0" : "right_100"
-              } flex items-center xl:gap-6 gap-5 mobile-view`}
+              } flex items-center xl:gap-6 lg:gap-5 gap-7 mobile-view`}
             >
               <li>
                 <a
-                  href=""
-                  onClick={() => !nav}
+                  href="#home"
+                  onClick={() => setnav(!nav)}
                   className="font-Poppins font-normal text-base text-lightwhite hover:text-darkWhite transition duration-300 ease-linear"
                 >
                   Home
@@ -35,7 +35,7 @@ function NavBar() {
               <li>
                 <a
                   onClick={() => setnav(!nav)}
-                  href=""
+                  href="#about"
                   className="font-Poppins font-normal text-base text-lightwhite hover:text-darkWhite transition duration-300 ease-linear text-nowrap"
                 >
                   About Us
@@ -44,7 +44,7 @@ function NavBar() {
               <li>
                 <a
                   onClick={() => setnav(!nav)}
-                  href=""
+                  href="#services"
                   className="font-Poppins font-normal text-base text-lightwhite hover:text-darkWhite transition duration-300 ease-linear text-nowrap"
                 >
                   Products & Services
@@ -62,7 +62,7 @@ function NavBar() {
               <li>
                 <a
                   onClick={() => setnav(!nav)}
-                  href=""
+                  href="#faq"
                   className="font-Poppins font-normal text-base text-lightwhite hover:text-darkWhite transition duration-300 ease-linear text-nowrap"
                 >
                   FAQs & Support
@@ -71,7 +71,7 @@ function NavBar() {
               <li>
                 <a
                   onClick={() => setnav(!nav)}
-                  href=""
+                  href="#contact"
                   className="font-Poppins font-normal text-base text-lightwhite hover:text-darkWhite transition duration-300 ease-linear text-nowrap"
                 >
                   Contact Us

@@ -9,7 +9,7 @@ function IntelligenceHub() {
   return (
     <div
       id="down"
-      className="bg-bodyBlue mt-[-1px] xl:pt-40 xl:pb-44 lg:py-28 md:py-16 py-10 relative"
+      className="bg-bodyBlue mt-[-2px] xl:pt-40 xl:pb-44 lg:py-28 md:py-16 py-10 relative"
     >
       {/* ====rightEllip====== */}
       <div className="absolute right-0 top-[-1%] md:block hidden">

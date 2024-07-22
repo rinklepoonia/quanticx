@@ -11,7 +11,7 @@ import {
 
 function Footer() {
   return (
-    <div className="bg-bodyBlue mt-[-2px]">
+    <div id="contact" className="bg-bodyBlue mt-[-2px]">
       <div className="container px-3">
         <div className="row">
           <div className="lg:w-[41.66%] w-full max-lg:px-3">

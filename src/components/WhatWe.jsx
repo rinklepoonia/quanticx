@@ -4,7 +4,7 @@ import leftEllip from '../assets/images/png/WhatWeDo-leftEllip.png'
 
 function WhatWe() {
   return (
-    <div className="bg-bodyBlue mt-[-2px] lg:pb-0 pb-10 relative">
+    <div id="services" className="bg-bodyBlue mt-[-2px] lg:pb-0 pb-10 relative">
       {/* ====leftEllip===== */}
       <div className="absolute top-[-5%] left-0">
         <img
