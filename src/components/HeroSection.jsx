@@ -6,14 +6,6 @@ import { DownArrow } from "./Icons";
 import Swal from "sweetalert2";
 
 function HeroSection() {
-  // const popup = () => {
-  //   Swal.fire({
-  //     title: "Good job!",
-  //     text: "Your task has been added !",
-  //     icon: "success",
-  //     Timer:9000,
-  //   });
-  // };
   const [email, setEmail] = useState("");
   const popup = () => {
     if (email && isValidEmail(email)) {

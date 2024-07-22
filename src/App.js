@@ -17,8 +17,8 @@ function App() {
       <About />
       <WhatWe/>
       {/* <Footer /> */}
-      {/* <NewsLetter/> */}
-      <Accordian/>
+      <Accordian />
+      <NewsLetter/>
     </>
   );
 }
