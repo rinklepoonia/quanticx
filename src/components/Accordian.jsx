@@ -77,7 +77,7 @@ function Accordian() {
               Tortor id arcu quam dis odio.
             </p>
           </div>
-          <div className="lg:w-[50%] w-full px-3 mt-lg-0 mt-9">
+          <div className="lg:w-[50%] w-full px-3 lg:mt-0 mt-9">
             {AccordianData.map((item, index) => (
               <AccordionItem
                 key={index}
