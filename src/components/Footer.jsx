@@ -34,28 +34,28 @@ function Footer() {
               <a
                 href="https://www.instagram.com/"
                 target="_blank"
-                className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw"
+                className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw hover:-translate-y-1 transition duration-300 ease-linear"
               >
                 <Insta />
               </a>
               <a
                 href="https://in.linkedin.com/"
                 target="_blank"
-                className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw"
+                className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw hover:-translate-y-1 transition duration-300 ease-linear"
               >
                 <In />
               </a>
               <a
                 href="https://x.com/?lang=en"
                 target="_blank"
-                className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw"
+                className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw hover:-translate-y-1 transition duration-300 ease-linear"
               >
                 <Twitter />
               </a>
               <a
                 href="https://www.youtube.com/"
                 target="_blank"
-                className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw"
+                className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw hover:-translate-y-1 transition duration-250 ease-linear"
               >
                 <YouTube />
               </a>

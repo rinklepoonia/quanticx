@@ -17,14 +17,20 @@ function About() {
       </div>
       <div className="container px-3">
         <div className="row lg:flex-row flex flex-col-reverse items-center">
-          <div className="lg:w-[50%] w-full px-3 flex justify-center lg:mt-0 mt-5">
+          <div
+            data-aos="fade-right"
+            className="lg:w-[50%] w-full px-3 flex justify-center lg:mt-0 mt-5"
+          >
             <img
               className="md:max-w-[500px] max-w-[400px] w-full"
               src={AboutUsImg}
               alt="AboutUsImg"
             />
           </div>
-          <div className="lg:w-[50%] w-full px-3  pb-lg-0 pb-5">
+          <div
+            data-aos="fade-left"
+            className="lg:w-[50%] w-full px-3  pb-lg-0 pb-5"
+          >
             <h2 className="font-khula font-bold lg:text-5xl text-4xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-4 sm:pb-2 pb-1 max-lg:text-center">
               About us
             </h2>

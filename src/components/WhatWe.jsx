@@ -29,7 +29,7 @@ function WhatWe() {
         <div className="row">
           {WhatWeCards.map((obj, index) => (
             <div className="lg:w-[33.33%] md:w-[50%] w-full px-3 justify-center flex pt-8">
-              <div key={index}>
+              <div key={index} data-aos="zoom-in">
                 <div
                   className={` ${
                     index === 0 || index === 3 || index === 4 || index === 5
@@ -71,7 +71,6 @@ function WhatWe() {
                   </button>
                 </div>
               </div>
-  
             </div>
           ))}
         </div>
