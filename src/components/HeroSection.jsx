@@ -33,7 +33,8 @@ function HeroSection() {
       id="home"
       className="bg-[url('./assets/images/png/hero-bg-img.png')] lg:bg-full bg-cover min-h-[810px] flex flex-col relative"
     >
-      <div className="absolute bottom-[-8%] left-[40px] md:block hidden z-10">
+      {/* ====round-ellip===== */}
+      <div className="absolute bottom-[-8%] left-[40px] lg:block hidden z-10">
         <img className="max-w-[58px]" src={RoundEllips} alt="RoundEllips" />
       </div>
       <div>

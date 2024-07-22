@@ -50,7 +50,7 @@ function Accordian() {
   return (
     <div
       id="faq"
-      className="bg-bodyBlue mt-[-1px] lg:py-44 md:py-24 sm:py-14 py-10 relative"
+      className="bg-bodyBlue mt-[-2px] lg:py-44 md:py-24 sm:py-14 py-10 relative"
     >
       {/* =====rightEllip====== */}
       <div className="absolute right-0 top-0 lg:block hidden">
@@ -71,7 +71,7 @@ function Accordian() {
       <div className="container px-3">
         <div className="row max-lg:justify-center">
           <div className="lg:w-[50%] w-full px-3">
-            <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 max-lg:text-center">
+            <h2 className="font-khula font-bold lg:text-5xl text-4xl lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 max-lg:text-center">
               FAQs
             </h2>
             <p className="font-Poppins font-normal text-base text-darkWhite70 lg:max-w-[345px] max-lg:text-center">

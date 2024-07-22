@@ -24,7 +24,7 @@ function IntelligenceHub() {
         <img className="max-w-[821px] h-[555px]" src={LeftEllip} alt="LeftEllip " />
       </div>
       <div className="container px-3">
-        <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-20 md:pb-14 pb-7 text-center">
+        <h2 className="font-khula font-bold lg:text-5xl text-4xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-20 md:pb-14 pb-7 text-center">
           Your All-in-One Market{" "}
           <span className="lg:block">Intelligence Hub</span>
         </h2>

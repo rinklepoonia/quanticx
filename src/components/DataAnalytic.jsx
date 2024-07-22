@@ -3,12 +3,12 @@ import { Data } from "../common/Helper";
 
 function DataAnalytic() {
   return (
-    <div className="bg-bodyBlue mt-[-1px] md::py-0 py-5">
+    <div className="bg-bodyBlue mt-[-2px] md:py-0 py-5">
       <div className="container xl:px-0 px-3">
-        <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 max-xl:text-center">
+        <h2 className="font-khula font-bold lg:text-5xl text-4xl lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 max-xl:text-center">
           Powered by Advanced <span className="lg:block">Data Analytics</span>
         </h2>
-        <p className="font-Poppins font-normal text-xl leading-8 text-white xl:pb-[60px] md:pb-10 pb-5 max-xl:text-center">
+        <p className="font-Poppins font-normal lg:text-xl text-base leading-8 text-white xl:pb-[60px] md:pb-10 pb-5 max-xl:text-center">
           Our bot doesn't just predict - it analyzes, adapts, and evolves
         </p>
         <div className="flex flex-wrap justify-center gap-6 xl:pb-24 sm:pb-14 pb-6">
@@ -19,7 +19,7 @@ function DataAnalytic() {
               className={index >= Data.length - 4 ? "xl:mt-4 mt-0" : ""}
             >
               <div
-                className={`bg-blue max-w-[267px] min-h-[288px] px-5 pt-7 pb-5 flex justify-center flex-col items-center rounded-xl relative  ${
+                className={`bg-blue max-w-[267px] min-h-[288px] lg:px-5 lg:pt-7 lg:pb-5 p-5 flex justify-center flex-col items-center rounded-xl relative group ${
                   index >= Data.length - 2
                     ? "border border-btnBlueGradient"
                     : ""
@@ -43,11 +43,11 @@ function DataAnalytic() {
                     />
                   )}
                 </div>
-                <div className="w-[265px] h-[89px] bg-btnBlueGradient opacity-15 absolute blur-2xl top-12 left-0"></div>
-                <div className="w-20 h-20 bg-cardGradient rounded-full flex justify-center items-center">
-                  <img className="max-w-[48px]" src={obj.img} alt="dataImg1 " />
+                <div className="w-[265px] h-[89px] bg-btnBlueGradient opacity-15 absolute blur-2xl top-12 left-0 group-hover:hidden block"></div>
+                <div className="lg:w-20 lg:h-20 w-16 h-16 bg-cardGradient rounded-full flex justify-center items-center">
+                  <img className="lg:max-w-[48px] max-w-[37px]" src={obj.img} alt="dataImg1 " />
                 </div>
-                <h5 className="font-khula font-semibold text-2xl leading-7 text-darkWhite pt-5 text-center">
+                <h5 className="font-khula font-semibold lg:text-2xl text-xl lg:leading-7 leading-6 text-darkWhite pt-5 text-center">
                   {obj.heading.split("\n").map((line, i) => (
                     <React.Fragment key={i}>
                       {line}
@@ -55,7 +55,7 @@ function DataAnalytic() {
                     </React.Fragment>
                   ))}
                 </h5>
-                <p className="font-Poppins font-normal text-base text-white70 text-center pt-2">
+                <p className="font-Poppins font-normal lg:text-base text-sm text-white70 text-center pt-2">
                   {obj.para}
                 </p>
               </div>

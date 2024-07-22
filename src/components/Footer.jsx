@@ -18,7 +18,7 @@ function Footer() {
             <a href="">
               {" "}
               <img
-                className="w-[118px] pb-8"
+                className="lg:w-[118px] w-20 lg:pb-8 pb-5"
                 src={FooterLogo}
                 alt="FooterLogo"
               />
@@ -102,7 +102,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="sm:w-[33.33%] w-full px-3">
+              <div className="sm:w-[33.33%] w-full px-3 sm:pt-0 pt-3">
                 <ul>
                   <li className="font-Poppins font-normal text-base text-darkWhite pb-[18px]">
                     Contact Us
@@ -130,8 +130,10 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-b border-lightGrey mt-10"></div>
-        <p className="font-Poppins font-normal text-base text-darkWhite70 text-center pt-5 pb-7">@Copyright123</p>
+        <div className="border-b border-lightGrey md:mt-10 mt-6"></div>
+        <p className="font-Poppins font-normal text-base text-darkWhite70 text-center md:pt-5 md:pb-7 py-5">
+          @Copyright123
+        </p>
       </div>
     </div>
   );

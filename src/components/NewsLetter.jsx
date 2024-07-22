@@ -28,7 +28,7 @@ function NewsLetter() {
       <div className="container px-3">
         <div className="bg-[url('./assets/images/png/newsletterBgImg.png')] bg-full border border-darkWhite rounded-3xl lg:py-[73px] lg:px-28 p-10 relative">
           <div className="flex flex-col justify-center items-center">
-            <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite pb-4 text-center">
+            <h2 className="font-khula font-bold lg:text-5xl text-4xl lg:leading-[57.6px] leading-[35px] text-darkWhite pb-4 text-center">
               Subscribe our newsletter
             </h2>
             <p className="font-Poppins font-normal text-base text-darkWhite70 max-w-[905px] text-center lg:pb-10 pb-5">

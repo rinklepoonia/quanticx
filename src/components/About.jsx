@@ -17,18 +17,18 @@ function About() {
       </div>
       <div className="container px-3">
         <div className="row lg:flex-row flex flex-col-reverse items-center">
-          <div className="lg:w-[50%] w-full px-3 flex justify-center">
+          <div className="lg:w-[50%] w-full px-3 flex justify-center lg:mt-0 mt-5">
             <img
-              className="max-w-[500px] w-full"
+              className="md:max-w-[500px] max-w-[400px] w-full"
               src={AboutUsImg}
               alt="AboutUsImg"
             />
           </div>
           <div className="lg:w-[50%] w-full px-3  pb-lg-0 pb-5">
-            <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-4 pb-2 max-lg:text-center">
+            <h2 className="font-khula font-bold lg:text-5xl text-4xl lg:leading-[57.6px] leading-[35px] text-darkWhite lg:pb-4 sm:pb-2 pb-1 max-lg:text-center">
               About us
             </h2>
-            <p className="font-Poppins font-normal text-base leading-7 text-darkWhite70 lg:max-w-[560px] lg:pb-9 pb-5 max-lg:text-center">
+            <p className="font-Poppins font-normal text-base leading-7 text-darkWhite70 lg:max-w-[560px] lg:pb-9 sm:pb-5 pb-3 max-lg:text-center">
               Welcome to QuanticX, where the future of trading has already
               arrived. We are a groundbreaking fintech startup, pushing the
               boundaries of what's possible in the trading and investment world.

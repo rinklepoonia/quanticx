@@ -1,12 +1,12 @@
 import React from "react";
 import { WhatWeCards } from "../common/Helper";
-import leftEllip from '../assets/images/png/WhatWeDo-leftEllip.png'
+import leftEllip from "../assets/images/png/WhatWeDo-leftEllip.png";
 
 function WhatWe() {
   return (
     <div id="services" className="bg-bodyBlue mt-[-2px] lg:pb-0 pb-10 relative">
       {/* ====leftEllip===== */}
-      <div className="absolute top-[-5%] left-0">
+      <div className="absolute top-[-5%] left-0 lg:block hidden">
         <img
           className="max-w-[821px] h-[555px]"
           src={leftEllip}
@@ -14,10 +14,10 @@ function WhatWe() {
         />
       </div>
       <div className="container px-3">
-        <h2 className="font-khula font-bold lg:text-5xl md:text-4xl text-3xl lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 text-center">
+        <h2 className="font-khula font-bold lg:text-5xl text-4xl  lg:leading-[57.6px] leading-[35px] text-darkWhite xl:pb-4 pb-2 text-center">
           What we do
         </h2>
-        <p className="font-Poppins font-normal text-base text-darkWhite70 text-center pb-14">
+        <p className="font-Poppins font-normal text-base text-darkWhite70 text-center xl:pb-14 lg:pb-8 md:pb-3 pb-1">
           Viverra elit at nunc sed sed nunc quisque consectetur. Lorem vulputate
           amet ut{" "}
           <span className="lg:block">
@@ -35,7 +35,7 @@ function WhatWe() {
                     index === 0 || index === 3 || index === 4 || index === 5
                       ? "pt-0 pb-10"
                       : ""
-                  } bg-blue max-w-[360px] min-h-[460px] rounded-xl py-10 px-11 flex flex-col justify-center items-center`}
+                  } bg-blue max-w-[360px] min-h-[460px] rounded-xl py-10 px-11 flex flex-col items-center`}
                 >
                   <img
                     className={` ${
