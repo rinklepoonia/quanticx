@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react'
 import { AccordianData } from '../common/Helper'
-import {AccTopArrow,AccBottomArrow} from '../components/Icons'
+import { AccTopArrow, AccBottomArrow } from '../components/Icons'
+import RightEllip from '../assets/images/png/accRightEllip.png'
+import LeftEllip from '../assets/images/png/accLeftEllip.png'
 
 
 const AccordionItem = ({ accHeading, accPara , isOpen, onClick }) => {
@@ -46,7 +48,23 @@ function Accordian() {
     };
 
   return (
-    <div className="bg-bodyBlue mt-[-1px] lg:py-44 md:py-24 sm:py-14 py-10">
+    <div className="bg-bodyBlue mt-[-1px] lg:py-44 md:py-24 sm:py-14 py-10 relative">
+      {/* =====rightEllip====== */}
+      <div className="absolute right-0 top-0 lg:block hidden">
+        <img
+          className="max-w-[801px] h-[553px]"
+          src={RightEllip}
+          alt="RightEllip"
+        />
+      </div>
+      {/* ======left-ellip====== */}
+      <div className="absolute left-0 top-[40%] lg:block hidden">
+        <img
+          className="max-w-[801px] h-[553px]"
+          src={LeftEllip}
+          alt="LeftEllip"
+        />
+      </div>
       <div className="container px-3">
         <div className="row max-lg:justify-center">
           <div className="lg:w-[50%] w-full px-3">
