@@ -1,6 +1,6 @@
 import React from "react";
-import AboutUsImg from "../assets/images/png/about-us-img.png";
-import AboutEllip from '../assets/images/png/about-us-ellip.png'
+import AboutUsImg from "../assets/images/webp/about-us-img.webp";
+import AboutEllip from '../assets/images/webp/about-us-ellip.webp'
 
 function About() {
   return (

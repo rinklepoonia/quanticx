@@ -1,5 +1,5 @@
 import React from "react";
-import FooterLogo from "../assets/images/png/footer-logo.png";
+import FooterLogo from "../assets/images/webp/footer-logo.webp";
 import {
   Insta,
   In,
@@ -70,7 +70,7 @@ function Footer() {
                   </li>
                   <li className="pb-[18px]">
                     <a
-                      href=""
+                      href="#about"
                       className="font-Poppins font-normal text-base text-darkWhite70 hover:text-darkWhite"
                     >
                       About Us
@@ -78,7 +78,7 @@ function Footer() {
                   </li>
                   <li className="pb-[18px]">
                     <a
-                      href=""
+                      href="#services"
                       className="font-Poppins font-normal text-base text-darkWhite70 text-nowrap hover:text-darkWhite"
                     >
                       Products & Services
@@ -94,7 +94,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href=""
+                      href="#faq"
                       className="font-Poppins font-normal text-base text-darkWhite70 hover:text-darkWhite"
                     >
                       FAQs & Support

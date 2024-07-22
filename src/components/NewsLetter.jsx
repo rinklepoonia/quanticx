@@ -26,7 +26,7 @@ function NewsLetter() {
   return (
     <div className="bg-bodyBlue mt-[-2px] pb-16">
       <div className="container px-3">
-        <div className="bg-[url('./assets/images/png/newsletterBgImg.png')] bg-full border border-darkWhite rounded-3xl lg:py-[73px] lg:px-28 p-10 relative">
+        <div className="bg-[url('./assets/images/webp/newsletterBgImg.webp')] bg-full border border-darkWhite rounded-3xl lg:py-[73px] lg:px-28 p-10 relative">
           <div className="flex flex-col justify-center items-center">
             <h2 className="font-khula font-bold lg:text-5xl text-4xl lg:leading-[57.6px] leading-[35px] text-darkWhite pb-4 text-center">
               Subscribe our newsletter

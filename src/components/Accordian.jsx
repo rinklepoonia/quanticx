@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react'
 import { AccordianData } from '../common/Helper'
 import { AccTopArrow, AccBottomArrow } from '../components/Icons'
-import RightEllip from '../assets/images/png/accRightEllip.png'
-import LeftEllip from '../assets/images/png/accLeftEllip.png'
+import RightEllip from '../assets/images/webp/accRightEllip.webp'
+import LeftEllip from '../assets/images/webp/accLeftEllip.webp'
 
 
 const AccordionItem = ({ accHeading, accPara , isOpen, onClick }) => {

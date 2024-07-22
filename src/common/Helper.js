@@ -1,19 +1,19 @@
-import dataImg1 from "../assets/images/png/multiplayIndicater-img1.png";
-import dataImg2 from "../assets/images/png/fram-analysi-2.png";
-import dataImg3 from "../assets/images/png/strategy-validation-3.png";
-import dataImg4 from "../assets/images/png/market-context-4.png";
-import dataImg5 from "../assets/images/png/data-extraction-5.png";
-import dataImg6 from "../assets/images/png/tranding-signals-6.png";
-import dataImg7 from "../assets/images/png/asset-analysis-7.png";
-import dataImg8 from "../assets/images/png/breakout-signals-8.png";
-import PremiumDimondImg from "../assets/images/png/premium-dimond-img.png";
+import dataImg1 from "../assets/images/webp/multiplayIndicater-img1.webp";
+import dataImg2 from "../assets/images/webp/fram-analysi-2.webp";
+import dataImg3 from "../assets/images/webp/strategy-validation-3.webp";
+import dataImg4 from "../assets/images/webp/market-context-4.webp";
+import dataImg5 from "../assets/images/webp/data-extraction-5.webp";
+import dataImg6 from "../assets/images/webp/tranding-signals-6.webp";
+import dataImg7 from "../assets/images/webp/asset-analysis-7.webp";
+import dataImg8 from "../assets/images/webp/breakout-signals-8.webp";
+import PremiumDimondImg from "../assets/images/webp/premium-dimond-img.webp";
 // what we do img
-import chatBotImg from "../assets/images/png/chatBotImg-1.png";
-import TradingImg from "../assets/images/png/tranding-signal-2.png";
-import portfoliosImg from "../assets/images/png/portfoliyaImg-3.png";
-import generateStrategiesImg from "../assets/images/png/stragiesImg-4.png";
-import managedFundImg from "../assets/images/png/managedFundImg-5.png";
-import QuanticXPortfoliosImg from "../assets/images/png/quanticxPortfolios-6.png";
+import chatBotImg from "../assets/images/webp/chatBotImg-1.webp";
+import TradingImg from "../assets/images/webp/tranding-signal-2.webp";
+import portfoliosImg from "../assets/images/webp/portfoliyaImg-3.webp";
+import generateStrategiesImg from "../assets/images/webp/stragiesImg-4.webp";
+import managedFundImg from "../assets/images/webp/managedFundImg-5.webp";
+import QuanticXPortfoliosImg from "../assets/images/webp/quanticxPortfolios-6.webp";
 
 export const Data = [
   {

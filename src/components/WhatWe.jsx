@@ -1,6 +1,6 @@
 import React from "react";
 import { WhatWeCards } from "../common/Helper";
-import leftEllip from "../assets/images/png/WhatWeDo-leftEllip.png";
+import leftEllip from "../assets/images/webp/WhatWeDo-leftEllip.webp";
 
 function WhatWe() {
   return (
@@ -49,7 +49,7 @@ function WhatWe() {
                       index === 0 || index === 3 || index === 4 || index === 5
                         ? "pt-10"
                         : ""
-                    } font-khula font-semibold text-2xl leading-7 text-darkWhite py-6 pb-2`}
+                    } font-khula font-semibold text-2xl leading-7 text-darkWhite py-6 pb-2 text-center capitalize`}
                   >
                     {obj.heading}
                   </h5>

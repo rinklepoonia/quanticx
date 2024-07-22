@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import navlogo from "../assets/images/png/nav-logo.png";
+import navlogo from "../assets/images/webp/nav-logo.webp";
 import { Cross, Threeline } from "../components/Icons";
 
 function NavBar() {

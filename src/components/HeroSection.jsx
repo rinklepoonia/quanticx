@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "./NavBar";
-import HeroLaptopImg from "../assets/images/png/hero-laptop.png";
-import RoundEllips from "../assets/images/png/hero-round-ellips.png";
+import HeroLaptopImg from "../assets/images/webp/hero-laptop.webp";
+import RoundEllips from "../assets/images/webp/hero-round-ellips.webp";
 import { DownArrow } from "./Icons";
 import Swal from "sweetalert2";
 
@@ -31,7 +31,7 @@ function HeroSection() {
   return (
     <div
       id="home"
-      className="bg-[url('./assets/images/png/hero-bg-img.png')] lg:bg-full bg-cover min-h-[810px] flex flex-col relative"
+      className="bg-[url('./assets/images/webp/hero-bg-img.webp')] lg:bg-full bg-cover min-h-[810px] flex flex-col relative"
     >
       {/* ====round-ellip===== */}
       <div className="absolute bottom-[-8%] left-[40px] lg:block hidden z-10">
