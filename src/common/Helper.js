@@ -8,7 +8,7 @@ import dataImg7 from "../assets/images/png/asset-analysis-7.png";
 import dataImg8 from "../assets/images/png/breakout-signals-8.png";
 import PremiumDimondImg from "../assets/images/png/premium-dimond-img.png";
 // what we do img
-import chatBotImg from '../assets/images/png/chatBotImg-1.png'
+import chatBotImg from "../assets/images/png/chatBotImg-1.png";
 import TradingImg from "../assets/images/png/tranding-signal-2.png";
 import portfoliosImg from "../assets/images/png/portfoliyaImg-3.png";
 import generateStrategiesImg from "../assets/images/png/stragiesImg-4.png";
@@ -93,7 +93,7 @@ export const WhatWeCards = [
   {
     img: managedFundImg,
     heading: "managed fund",
-    para:"We have a managed fund to invest in it on Darwinex.",
+    para: "We have a managed fund to invest in it on Darwinex.",
     button: "Explore",
   },
   {
@@ -103,4 +103,35 @@ export const WhatWeCards = [
     button: "Explore",
   },
 ];
-
+export const AccordianData = [
+  {
+    accHeading: "Enim aliquet massa lacinia purus fermentum.",
+    accPara:
+      "Mollis magna pulvinar viverra integer ipsum ut quisque in. Tincidunt sem turpis at ut aliquam. Tincidunt congue dictum blandit elit. Suscipit in aliquam.",
+  },
+  {
+    accHeading: "Nibh tortor purus magna lorem placerat auctor.",
+    accPara:
+      "Mollis magna pulvinar viverra integer ipsum ut quisque in. Tincidunt sem turpis at ut aliquam. Tincidunt congue dictum blandit elit. Suscipit in aliquam.",
+  },
+  {
+    accHeading: "Cras magna sit libero fames purus sem lectus.",
+    accPara:
+      "Mollis magna pulvinar viverra integer ipsum ut quisque in. Tincidunt sem turpis at ut aliquam. Tincidunt congue dictum blandit elit. Suscipit in aliquam.",
+  },
+  {
+    accHeading: "Vestibulum gravida lorem dui mi varius",
+    accPara:
+      "Mollis magna pulvinar viverra integer ipsum ut quisque in. Tincidunt sem turpis at ut aliquam. Tincidunt congue dictum blandit elit. Suscipit in aliquam.",
+  },
+  {
+    accHeading: "Pulvinar ullamcorper diam ut sit diam. Purus.",
+    accPara:
+      "Mollis magna pulvinar viverra integer ipsum ut quisque in. Tincidunt sem turpis at ut aliquam. Tincidunt congue dictum blandit elit. Suscipit in aliquam.",
+  },
+  {
+    accHeading: "Urna pellentesque vestibulum eget a. Proin at.",
+    accPara:
+      "Mollis magna pulvinar viverra integer ipsum ut quisque in. Tincidunt sem turpis at ut aliquam. Tincidunt congue dictum blandit elit. Suscipit in aliquam.",
+  },
+];

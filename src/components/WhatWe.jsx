@@ -29,7 +29,7 @@ function WhatWe() {
                   } bg-blue max-w-[360px] min-h-[460px] rounded-xl py-10 px-11 flex flex-col justify-center items-center`}
                 >
                   <img
-                    className={` ${index === 5 || index===4 ? "xl:h-[203px] h-[160px]" : ""} w-[153px]`}
+                    className={` ${index === 5 || index===4 ? "h-[160px]" : ""} w-[153px]`}
                     src={obj.img}
                     alt="chatBotImg"
                   />
