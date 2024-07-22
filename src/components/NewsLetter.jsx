@@ -24,7 +24,7 @@ function NewsLetter() {
     setEmail(e.target.value);
   };
   return (
-    <div className="bg-bodyBlue mt-[-1px]">
+    <div className="bg-bodyBlue mt-[-1px] pb-16">
       <div className="container px-3">
         <div className="bg-[url('./assets/images/png/newsletterBgImg.png')] bg-full border border-darkWhite rounded-3xl lg:py-[73px] lg:px-28 p-10">
           <div className="flex flex-col justify-center items-center">

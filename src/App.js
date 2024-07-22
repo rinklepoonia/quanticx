@@ -15,10 +15,10 @@ function App() {
       <IntelligenceHub />
       <DataAnalytic />
       <About />
-      <WhatWe/>
-      {/* <Footer /> */}
+      <WhatWe />
       <Accordian />
-      <NewsLetter/>
+      <NewsLetter />
+      <Footer />
     </>
   );
 }
