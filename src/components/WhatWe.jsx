@@ -28,14 +28,20 @@ function WhatWe() {
         {/* =====map-card==== */}
         <div className="row">
           {WhatWeCards.map((obj, index) => (
-            <div className="lg:w-[33.33%] md:w-[50%] w-full px-3 justify-center flex pt-8">
-              <div key={index} data-aos="zoom-in">
+            <div
+              key={index}
+              className={`lg:w-[33.33%] md:w-[50%] w-full px-3 justify-center items-end flex pt-8 ${
+                index === 3 || index === 4 || index === 5 ? "lg:mb-2" : ""
+              }`}
+            >
+              <div data-aos="zoom-in">
                 <div
                   className={` ${
                     index === 0 || index === 3 || index === 4 || index === 5
                       ? "pt-0 pb-10"
                       : ""
-                  } bg-blue max-w-[360px] min-h-[460px] rounded-xl py-10 px-11 flex flex-col items-center`}
+                  }
+                   bg-blue max-w-[360px] min-h-[460px] rounded-xl py-10 px-11 flex flex-col items-center border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] hover:shadow-CardShadaw transition-all duration-300`}
                 >
                   <img
                     className={` ${
@@ -44,31 +50,29 @@ function WhatWe() {
                     src={obj.img}
                     alt="chatBotImg"
                   />
-                  <h5
-                    className={` ${
-                      index === 0 || index === 3 || index === 4 || index === 5
-                        ? "pt-10"
-                        : ""
-                    } font-khula font-semibold text-2xl leading-7 text-darkWhite py-6 pb-2 text-center capitalize`}
-                  >
-                    {obj.heading}
-                  </h5>
-                  <p
-                    className={`font-Poppins font-normal text-base text-darkWhite70 text-center ${
-                      index === 0 || index === 3 || index === 4
-                        ? "pb-11"
-                        : index === 1
-                        ? "pb-7"
-                        : index === 2 || index === 5
-                        ? "pb-[54px]"
-                        : ""
-                    }`}
-                  >
-                    {obj.para}
-                  </p>
-                  <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient hover:bg-btnBluehover py-3.5 px-6 rounded-lg transition-all duration-300">
-                    {obj.button}
-                  </button>
+                  <div className="h-full grow flex flex-col items-center justify-end">
+                    <h5
+                      className={` font-khula font-semibold text-2xl leading-7 text-darkWhite pb-2 text-center capitalize`}
+                    >
+                      {obj.heading}
+                    </h5>
+                    <p
+                      className={`font-Poppins font-normal text-base text-darkWhite70 text-center min-h-[116px] ${
+                        index === 0 || index === 3 || index === 4
+                          ? "pb-11"
+                          : index === 1
+                          ? "pb-7"
+                          : index === 2 || index === 5
+                          ? "pb-[54px]"
+                          : ""
+                      }`}
+                    >
+                      {obj.para}
+                    </p>
+                    <button className="font-Poppins font-semibold text-base text-darkWhite bg-btnBlueGradient hover:bg-btnBluehover py-3.5 px-6 rounded-lg transition-all duration-300">
+                      {obj.button}
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

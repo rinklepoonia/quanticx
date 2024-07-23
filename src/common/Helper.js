@@ -86,11 +86,7 @@ export const WhatWeCards = [
   {
     img: chatBotImg,
     heading: "chat bot App",
-    para: (
-      <>
-        <span>AI-powered conversations and answers, learn and assist.</span>
-      </>
-    ),
+    para: "AI-powered conversations and answers, learn and assist.",
     button: "Explore",
   },
   {
