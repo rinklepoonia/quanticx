@@ -1,5 +1,6 @@
 import React from "react";
 import FooterLogo from "../assets/images/webp/footer-logo.webp";
+import youTube from "../assets/images/webp/youtube.webp";
 import {
   Insta,
   In,
@@ -57,7 +58,7 @@ function Footer() {
                 target="_blank"
                 className="w-[38px] h-[38px] rounded-full  bg-cardGradient flex items-center justify-center hover:shadow-CardShadaw hover:-translate-y-1 transition duration-250 ease-linear"
               >
-                <YouTube />
+                <img className="w-7" src={youTube} alt="youTube" />
               </a>
             </div>
           </div>
