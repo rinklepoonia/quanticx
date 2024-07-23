@@ -41,7 +41,7 @@ function WhatWe() {
                       ? "pt-0 pb-10"
                       : ""
                   }
-                   bg-blue max-w-[360px] min-h-[460px] rounded-xl py-10 px-11 flex flex-col items-center border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] hover:shadow-CardShadaw transition-all duration-300`}
+                   bg-blue max-w-[360px] min-h-[460px] rounded-xl py-10 px-11 flex flex-col items-center border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] hover:shadow-CardShadaw transition-all duration-300 group`}
                 >
                   <img
                     className={` ${
@@ -50,7 +50,9 @@ function WhatWe() {
                     src={obj.img}
                     alt="chatBotImg"
                   />
-                  <div className="h-full grow flex flex-col items-center justify-end">
+                  {/*===== card-ellip ====*/}
+                  <div className="w-[265px] h-[89px] bg-btnBlueGradient opacity-15 absolute blur-2xl top-12 left-6 group-hover:hidden block"></div>
+                  <div className="h-full grow flex flex-col items-center justify-end z-10">
                     <h5
                       className={` font-khula font-semibold text-2xl leading-7 text-darkWhite pb-2 text-center capitalize`}
                     >

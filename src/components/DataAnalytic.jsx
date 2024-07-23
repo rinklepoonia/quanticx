@@ -22,12 +22,12 @@ function DataAnalytic() {
               <div
                 className={`bg-blue max-w-[267px] min-h-[288px] lg:px-5 lg:pt-7 lg:pb-5 p-5 flex justify-center flex-col items-center rounded-xl relative group border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box]  after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] group hover:shadow-CardShadaw transition-all duration-300 ${
                   index >= Data.length - 2
-                    ? "border border-btnBlueGradient"
+                    ? "border_Gradient after:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box]  after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] shadow-CardShadaw"
                     : ""
                 }`}
               >
                 <div
-                  className={`flex items-center rounded-2xl gap-1.5 py-1 px-12 absolute top-[-18px] ${
+                  className={`flex items-center rounded-2xl gap-1.5 py-1 px-12 absolute top-[-18px] z-10 ${
                     index >= Data.length - 2 ? "bg-btnBlueGradient" : ""
                   }`}
                 >
