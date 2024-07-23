@@ -22,7 +22,7 @@ function About() {
             className="lg:w-[50%] w-full px-3 flex justify-center lg:mt-0 mt-5"
           >
             <img
-              className="md:max-w-[500px] max-w-[400px] w-full"
+              className="lg:max-w-[500px] max-w-96 w-full"
               src={AboutUsImg}
               alt="AboutUsImg"
             />

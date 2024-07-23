@@ -33,10 +33,10 @@ function IntelligenceHub() {
         <div data-aos="fade-up" className="flex flex_wrap gap-7 justify-center">
           {HubData.map((obj, index) => (
             <div key={index}>
-              <div className="max-w-[360px] w-full lg:min-h-[460px] min-h-[400px] border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] relative after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] group hover:shadow-CardShadaw transition-all duration-300 after:z-[-2]">
+              <div className="lg:max-w-[360px] max-w-80 w-full lg:min-h-[460px] min-h-[400px] border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] relative after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] group hover:shadow-CardShadaw transition-all duration-300 after:z-[-2]">
                 <div className="bg-btnBlueGradient w-[265px] h-[89px] absolute opacity-65 blur-3xl bottom-[50%] top-[50%] rounded-[50%] right-[11%] group-hover:hidden"></div>
                 <img
-                  className="max-w-[360px] w-full rounded-t-[12px]"
+                  className="lg:max-w-[360px] max-w-80  w-full rounded-t-[12px]"
                   src={obj.HubImg1}
                   alt="HubImg1"
                 />
