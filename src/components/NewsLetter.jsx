@@ -28,7 +28,7 @@ function NewsLetter() {
       <div className="container px-3">
         <div
           data-aos="zoom-in"
-          className="bg-[url('./assets/images/webp/BgNewsLetter-img.webp')] lg:bg-full bg-cover border border-darkWhite rounded-3xl lg:py-[73px] lg:px-28 sm:p-10 p-5 relative lg:mb-[-184px] mb-[-215px] z-10"
+          className="bg-[url('./assets/images/webp/newsBg-img.webp')] lg:bg-full bg-cover border border-darkWhite rounded-3xl lg:py-[73px] lg:px-28 sm:p-10 p-5 relative lg:mb-[-184px] mb-[-215px] z-10"
         >
           <div className="flex flex-col justify-center items-center">
             <h2 className="font-khula font-bold lg:text-5xl text-4xl lg:leading-[57.6px] leading-[35px] text-darkWhite pb-4 text-center">

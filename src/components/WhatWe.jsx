@@ -8,7 +8,7 @@ function WhatWe() {
       {/* ====leftEllip===== */}
       <div className="absolute top-[-5%] left-0 lg:block hidden">
         <img
-          className="max-w-[821px] h-[555px]"
+          className="max-w-[821px] h-[615px]"
           src={leftEllip}
           alt="leftEllip"
         />

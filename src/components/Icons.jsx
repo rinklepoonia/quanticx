@@ -82,7 +82,7 @@ export const In = () => {
 export const Twitter = () => {
   return (
     <svg
-      width="25"
+      width="20"
       height="20"
       viewBox="0 0 25 20"
       fill="none"

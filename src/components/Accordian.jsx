@@ -1,11 +1,10 @@
-import React, { useRef, useState } from 'react'
-import { AccordianData } from '../common/Helper'
-import { AccTopArrow, AccBottomArrow } from '../components/Icons'
-import RightEllip from '../assets/images/webp/accRightEllip.webp'
-import LeftEllip from '../assets/images/webp/accLeftEllip.webp'
+import React, { useRef, useState } from "react";
+import { AccordianData } from "../common/Helper";
+import { AccTopArrow, AccBottomArrow } from "../components/Icons";
+import RightEllip from "../assets/images/webp/accRightEllip.webp";
+import LeftEllip from "../assets/images/webp/accLeftEllip.webp";
 
-
-const AccordionItem = ({ accHeading, accPara , isOpen, onClick }) => {
+const AccordionItem = ({ accHeading, accPara, isOpen, onClick }) => {
   const contentHeight = useRef();
   return (
     <div
@@ -19,7 +18,9 @@ const AccordionItem = ({ accHeading, accPara , isOpen, onClick }) => {
         }`}
         onClick={onClick}
       >
-        <p className="font-khula font-semibold sm:text-xl text-base text-white">
+        <p
+          className={`font-khula font-semibold sm:text-xl text-base text-white`}
+        >
           {accHeading}
         </p>
         <span>{isOpen ? <AccTopArrow /> : <AccBottomArrow />}</span>
@@ -42,10 +43,10 @@ const AccordionItem = ({ accHeading, accPara , isOpen, onClick }) => {
 };
 
 function Accordian() {
-    const [activeIndex, setActiveIndex] = useState(null);
-    const handleItemClick = (index) => {
-      setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
-    };
+  const [activeIndex, setActiveIndex] = useState(null);
+  const handleItemClick = (index) => {
+    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
 
   return (
     <div
@@ -53,9 +54,9 @@ function Accordian() {
       className="bg-bodyBlue mt-[-2px] lg:py-44 md:py-24 sm:py-14 py-10 relative"
     >
       {/* =====rightEllip====== */}
-      <div className="absolute right-0 top-0 lg:block hidden">
+      <div className="absolute right-0 top-[-9%] lg:block hidden">
         <img
-          className="max-w-[801px] h-[553px]"
+          className="max-w-[801px] h-[690px]"
           src={RightEllip}
           alt="RightEllip"
         />
@@ -86,7 +87,7 @@ function Accordian() {
               Tortor id arcu quam dis odio.
             </p>
           </div>
-          <div className="lg:w-[50%] w-full px-3 lg:mt-0 mt-9">
+          <div className="lg:w-[50%] w-full px-3 lg:mt-0 mt-9 z-10">
             {AccordianData.map((item, index) => (
               <AccordionItem
                 key={index}
@@ -103,4 +104,4 @@ function Accordian() {
   );
 }
 
-export default Accordian
+export default Accordian;

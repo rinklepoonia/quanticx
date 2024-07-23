@@ -31,16 +31,18 @@ function HeroSection() {
   return (
     <div
       id="home"
-      className="bg-[url('./assets/images/webp/bg-Hero.webp')] lg:bg-full bg-cover min-h-[810px] flex flex-col relative"
+      className="bg-[url('./assets/images/webp/bg-heroImg.webp')] lg:bg-full bg-cover min-h-[810px] flex flex-col relative"
     >
       {/* ====round-ellip===== */}
       <div className="absolute bottom-[-8%] left-[40px] lg:block hidden z-10">
         <img className="max-w-[58px]" src={RoundEllips} alt="RoundEllips" />
       </div>
+      {/* ====nav-bar===== */}
       <div>
         <NavBar />
       </div>
-      <div className="lg:pt-32 md:pt-16 pt-8 lg:pb-7 pb-5">
+      {/* ======hero-section======= */}
+      <div className="lg:pt-32 md:pt-16 pt-8 lg:pb-7 pb-5 relative">
         <div className="container px-3">
           <div className="row justify-center">
             <div className="lg:w-[50%] px-3">
@@ -78,13 +80,13 @@ function HeroSection() {
             </div>
             <div className="lg:w-[50%] px-3 flex justify-center">
               <img
-                className="lg:mt-0 mt-10"
+                className="max-lg:w-96 lg:mt-0 mt-10"
                 src={laptopHero}
                 alt="laptopHero"
               />
             </div>
           </div>
-          <div className="flex justify-center mt-16">
+          <div className="flex justify-center mt-10">
             <a href="#down">
               <span className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite flex justify-center items-center cursor-pointer">
                 <DownArrow />

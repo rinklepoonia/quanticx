@@ -11,7 +11,7 @@ function DataAnalytic() {
         <p className="font-Poppins font-normal lg:text-xl text-base leading-8 text-white xl:pb-[60px] md:pb-10 pb-5 max-xl:text-center">
           Our bot doesn't just predict - it analyzes, adapts, and evolves
         </p>
-        <div className="flex flex-wrap justify-center gap-6 xl:pb-24 sm:pb-14 pb-6">
+        <div className="flex flex-wrap max-xl:justify-center gap-6 xl:pb-24 sm:pb-14 pb-6">
           {/* ====map-cards==== */}
           {Data.map((obj, index) => (
             <div

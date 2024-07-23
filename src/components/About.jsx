@@ -10,7 +10,7 @@ function About() {
     >
       <div className="absolute right-0 top-0">
         <img
-          className="max-w-[801px] h-[553px]"
+          className="max-w-[801px] h-[585px]"
           src={AboutEllip}
           alt="AboutEllip"
         />
