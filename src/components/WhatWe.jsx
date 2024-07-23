@@ -41,7 +41,7 @@ function WhatWe() {
                       ? "pt-0 pb-10"
                       : ""
                   }
-                   bg-blue max-w-[360px] lg:min-h-[460px] min-h-[424px] rounded-xl lg:py-10 lg:px-11 p-8 flex flex-col items-center border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] hover:shadow-CardShadaw transition-all duration-300 group`}
+                   bg-blue max-w-[360px] lg:min-h-[460px] min-h-[385px] rounded-xl py-10 px-11 max-lg:p-5 flex flex-col items-center border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] hover:shadow-CardShadaw transition-all duration-300 group`}
                 >
                   <img
                     className={` ${
@@ -61,11 +61,11 @@ function WhatWe() {
                     <p
                       className={`font-Poppins font-normal text-base text-darkWhite70 text-center lg:min-h-[116px] ${
                         index === 0 || index === 3 || index === 4
-                          ? "lg:pb-11 pb-4"
+                          ? "lg:pb-11 pb-5"
                           : index === 1
-                          ? "lg:pb-7 pb-4"
+                          ? "lg:pb-7 pb-5"
                           : index === 2 || index === 5
-                          ? "lg:pb-[54px] pb-4"
+                          ? "lg:pb-[54px] pb-5"
                           : ""
                       }`}
                     >
