@@ -7,7 +7,7 @@
   mask-composite: exclude;
 }
 
-@media (max-width: 1023.99px) {
+@media (max-width: 1024.99px) {
   .mobile-view {
     background: black;
     width: 100%;

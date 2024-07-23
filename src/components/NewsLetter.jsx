@@ -48,6 +48,9 @@ function NewsLetter() {
               <input
                 required
                 type="email"
+                id="email"
+                name="email"
+                autoComplete="off"
                 value={email}
                 onChange={handleInputChange}
                 placeholder="Entre you email.."

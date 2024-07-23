@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        lg: "1025px",
         Xl: "1400px",
       },
       container: {
@@ -25,11 +26,10 @@ module.exports = {
         darkWhite: "#FAFAFA",
         lightwhite: "#B4BBC0",
         white70: "#B8BCC4",
-        white32:" #FFFFFF52",
+        white32: " #FFFFFF52",
         blue: "#152340",
         darkWhite8: "#FAFAFA14",
-        lightGrey:"#636C7D",
-       
+        lightGrey: "#636C7D",
       },
       backgroundColor: {
         bodyBlue: "#111C33",

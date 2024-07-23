@@ -1,7 +1,4 @@
 import React from "react";
-import IntelligenceHubImg1 from "../assets/images/webp/intelligenceHub-1.webp";
-import IntelligenceHubImg2 from "../assets/images/webp/intelligenceHub-2.webp";
-import IntelligenceHubImg3 from "../assets/images/webp/intelligenceHub-3.webp";
 import IntelligenceHubEllip from "../assets/images/webp/hub-right-ellip.webp";
 import LeftEllip from "../assets/images/webp/left-roundedEllip.webp";
 import { HubData } from "../common/Helper";
