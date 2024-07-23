@@ -76,15 +76,15 @@ function HeroSection() {
                 </button>
               </form>
             </div>
-            <div className="lg:w-[50%] px-3 flex justify-end">
+            <div className="lg:w-[50%] px-3 flex justify-center">
               <img
-                className="lg:max-w-[515px] w-96 lg:h-[528px] lg:mt-0 mt-10"
+                className="lg:max-w-[515px] w-96  lg:mt-0 mt-10"
                 src={HeroLaptopImg}
                 alt="HeroLaptopImg"
               />
             </div>
           </div>
-          <div className="flex justify-center lg:mt-0 mt-7">
+          <div className="flex justify-center 2xl:mt-10 lg:mt-0 mt-7">
             <a href="#down">
               <span className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center cursor-pointer">
                 <DownArrow />
