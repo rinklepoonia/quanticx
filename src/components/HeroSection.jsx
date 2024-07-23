@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "./NavBar";
-import HeroLaptopImg from "../assets/images/webp/hero-laptop.webp";
 import RoundEllips from "../assets/images/webp/hero-round-ellips.webp";
+import laptopHero from "../assets/images/webp/laptop-hero.webp";
 import { DownArrow } from "./Icons";
 import Swal from "sweetalert2";
 
@@ -31,7 +31,7 @@ function HeroSection() {
   return (
     <div
       id="home"
-      className="bg-[url('./assets/images/webp/hero-bg-img.webp')] lg:bg-full bg-cover min-h-[810px] flex flex-col relative"
+      className="bg-[url('./assets/images/webp/bg-Hero.webp')] lg:bg-full bg-cover min-h-[810px] flex flex-col relative"
     >
       {/* ====round-ellip===== */}
       <div className="absolute bottom-[-8%] left-[40px] lg:block hidden z-10">
@@ -78,15 +78,15 @@ function HeroSection() {
             </div>
             <div className="lg:w-[50%] px-3 flex justify-center">
               <img
-                className="lg:max-w-[515px] w-96  lg:mt-0 mt-10"
-                src={HeroLaptopImg}
-                alt="HeroLaptopImg"
+                className="lg:mt-0 mt-10"
+                src={laptopHero}
+                alt="laptopHero"
               />
             </div>
           </div>
           <div className="flex justify-center mt-16">
             <a href="#down">
-              <span className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite  flex justify-center items-center cursor-pointer">
+              <span className="w-[55px] h-[55px] rounded-full bg-blue border border-darkWhite flex justify-center items-center cursor-pointer">
                 <DownArrow />
               </span>
             </a>
