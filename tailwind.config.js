@@ -42,6 +42,8 @@ module.exports = {
           "linear-gradient(147.49deg,#1B4EC8 7.04%, #2DE2FB 59.53%)",
         cardGradient:
           "linear-gradient(147.49deg, rgba(45, 226, 251, 0.4) 7.04%, rgba(27, 78, 200, 0.4) 59.53%)",
+        footerGradient:
+          "linear-gradient(180deg, #111C33 11.51%, #121d35ee 34.92%, #152340 100%)",    
       },
       borderColor: {
         btnBlueGradient: "#2DE2FB",
