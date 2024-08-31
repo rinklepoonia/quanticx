@@ -41,12 +41,12 @@ function WhatWe() {
                       ? "pt-0 pb-10"
                       : ""
                   }
-                   bg-blue max-w-[360px] lg:min-h-[460px] min-h-[385px] rounded-xl py-10 px-11 max-lg:p-5 flex flex-col items-center border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] hover:shadow-CardShadaw transition-all duration-300 group`}
+                   bg-blue lg:max-w-[360px] max-w-[295px] lg:min-h-[460px] min-h-[342px] rounded-xl py-10 px-11 max-lg:pt-0 max-lg:pb-3 max-lg:pr-3 max-lg:pl-3 flex flex-col items-center border_Gradient after:hover:[background:linear-gradient(147.49deg,#2DE2FB_7.04%,#1B4EC8_59.53%)border-box] after:border after:border-darkWhite8 after:absolute after:inset-0 after:rounded-[12px] hover:shadow-CardShadaw transition-all duration-300 group`}
                 >
                   <img
                     className={` ${
                       index === 5 || index === 4 ? "h-[160px]" : ""
-                    } w-[153px]`}
+                    } md:w-[153px] w-[107px]`}
                     src={obj.img}
                     alt="chatBotImg"
                   />
@@ -54,12 +54,12 @@ function WhatWe() {
                   <div className="w-[265px] h-[89px] bg-btnBlueGradient opacity-15 absolute blur-2xl top-12 left-6 group-hover:hidden block"></div>
                   <div className="h-full grow flex flex-col items-center justify-end z-10">
                     <h5
-                      className={`font-khula font-semibold text-2xl leading-7 text-darkWhite pb-2 text-center capitalize`}
+                      className={`font-khula font-semibold lg:text-2xl text-xl lg:leading-7 text-darkWhite lg:pb-2 pb-0 text-center capitalize`}
                     >
                       {obj.heading}
                     </h5>
                     <p
-                      className={`font-Poppins font-normal text-base text-darkWhite70 text-center lg:min-h-[116px] ${
+                      className={`font-Poppins font-normal lg:text-base text-sm text-darkWhite70 text-center lg:min-h-[116px] ${
                         index === 0 || index === 3 || index === 4
                           ? "lg:pb-11 pb-5"
                           : index === 1
